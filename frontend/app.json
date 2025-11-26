@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "cat-voting-frontend",
+    "slug": "cat-voting-frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "cat-app-logging-demo",
+          "organization": "ritza-hb"
+        }
+      ]
+    ]
+  }
+}
