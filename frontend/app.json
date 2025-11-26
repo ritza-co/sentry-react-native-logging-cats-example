@@ -20,8 +20,8 @@
         "@sentry/react-native/expo",
         {
           "url": "https://sentry.io/",
-          "project": "cat-app-logging-demo",
-          "organization": "ritza-hb"
+          "project": "your-project-name",
+          "organization": "your-organization-name"
         }
       ]
     ]
